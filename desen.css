@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+h1{
+    margin:25px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}

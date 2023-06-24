@@ -65,7 +65,11 @@ h4{
     box-shadow: 5px;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    align-items: center;
 
+}
+.oculto{
+    width:80px;
 }
 
 .aulas:hover{
@@ -81,7 +85,10 @@ h4{
     transform: scale(1.2);
     cursor: pointer;
     transition: all .3s;
+
 }
+
+
 h3{
     font-weight: bolder ;
     display: flex;
@@ -93,6 +100,38 @@ h3{
     flex-direction: row;
     padding: 50px;
     
+}
+.novo{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    border-style:groove;
+    border-color:black ;
+    border-radius: 2px;
+    margin: 10px;
+    box-shadow: 5px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+}
+.card:hover{
+    display:flex;
+    flex-direction: column;
+    border-style:groove;
+    border-color:rgb(255, 255, 255) ;
+    border-radius: 2px;
+    margin: 10px;
+    box-shadow: 5px;
+    background-color:  rgb(0, 0, 0);
+    color: white;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all .3s;
+
 }
 p{
     display: flex;
@@ -137,4 +176,20 @@ a:link, a:visited
 	}
 a:hover{
     color:black;
+}
+@media only screen and (max-width: 600px) {.materia{
+    display:inline-block;
+}
+
+.mim{
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+    list-style-type: disc;
+}
+}
+@media only screen and (max-width: 850px) {.materia, .novo{
+    display:inline-block;}
+
 }
